@@ -1,7 +1,7 @@
 # v0.7.3
 
 # Build API, Client and Data Provider
-FROM node:20-alpine AS base
+FROM node:20-slim AS base
 
 # Build data-provider
 FROM base AS data-provider-build
